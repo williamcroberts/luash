@@ -62,7 +62,7 @@ wc(grep(ls('/bin'), filter), '-l')
 -- chained syntax
 ls('/bin'):grep(filter):wc('-l')
 -- chained syntax without parens
-ls '/bin' : grep filter : wc '-l'
+ls '/bin' : grep 'filter' : wc '-l'
 ```
 
 ## Partial commands and commands with tricky names
